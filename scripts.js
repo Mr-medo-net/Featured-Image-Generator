@@ -61,16 +61,16 @@ inputBackgroundColor.addEventListener('change', (event) => {
 
 // Background Image
 const images = [
-    '//mr-medo-net.github.io/Featured-Image-Generator/images/1.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/2.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/3.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/4.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/5.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/6.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/7.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/8.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/9.png',
-    'https://mr-medo-net.github.io/Featured-Image-Generator/images/10.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/1.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/2.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/3.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator@28108b4/images/4.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator@28108b40ca585250bb71227c4451b20f2aa6ba43/images/5.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/6.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/7.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/8.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/9.png',
+    'https://cdn.jsdelivr.net/gh/Mr-medo-net/Featured-Image-Generator/images/10.png',
 ];
 const inputBackgroundImage = document.getElementById('input_background_image');
 
