@@ -61,16 +61,16 @@ inputBackgroundColor.addEventListener('change', (event) => {
 
 // Background Image
 const images = [
-    '/featured-image-generator/src/assets/images/patterns/1.png',
-    '/featured-image-generator/src/assets/images/patterns/2.png',
-    '/featured-image-generator/src/assets/images/patterns/3.png',
-    '/featured-image-generator/src/assets/images/patterns/4.png',
-    '/featured-image-generator/src/assets/images/patterns/5.png',
-    '/featured-image-generator/src/assets/images/patterns/6.png',
-    '/featured-image-generator/src/assets/images/patterns/7.png',
-    '/featured-image-generator/src/assets/images/patterns/8.png',
-    '/featured-image-generator/src/assets/images/patterns/9.png',
-    '/featured-image-generator/src/assets/images/patterns/10.png',
+    '/Featured-Image-Generator/images/1.png',
+    '/Featured-Image-Generator/images/2.png',
+    '/Featured-Image-Generator/images/3.png',
+    '/Featured-Image-Generator/images/4.png',
+    '/Featured-Image-Generator/images/5.png',
+    '/Featured-Image-Generator/images/6.png',
+    '/Featured-Image-Generator/images/7.png',
+    '/Featured-Image-Generator/images/8.png',
+    '/Featured-Image-Generator/images/9.png',
+    '/Featured-Image-Generator/images/10.png',
 ];
 const inputBackgroundImage = document.getElementById('input_background_image');
 
