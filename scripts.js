@@ -61,16 +61,16 @@ inputBackgroundColor.addEventListener('change', (event) => {
 
 // Background Image
 const images = [
-    '/Featured-Image-Generator/images/1.png',
-    '/Featured-Image-Generator/images/2.png',
-    '/Featured-Image-Generator/images/3.png',
-    '/Featured-Image-Generator/images/4.png',
-    '/Featured-Image-Generator/images/5.png',
-    '/Featured-Image-Generator/images/6.png',
-    '/Featured-Image-Generator/images/7.png',
-    '/Featured-Image-Generator/images/8.png',
-    '/Featured-Image-Generator/images/9.png',
-    '/Featured-Image-Generator/images/10.png',
+    '//mr-medo-net.github.io/Featured-Image-Generator/images/1.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/2.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/3.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/4.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/5.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/6.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/7.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/8.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/9.png',
+    'https://mr-medo-net.github.io//Featured-Image-Generator/images/10.png',
 ];
 const inputBackgroundImage = document.getElementById('input_background_image');
 
