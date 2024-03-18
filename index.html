@@ -77,8 +77,6 @@
         <link href="//static.xx.fbcdn.net" rel="dns-prefetch preconnect" />
         <link href="//tpc.googlesyndication.com" rel="dns-prefetch preconnect" />
         <link href="//syndication.twitter.com" rel="dns-prefetch preconnect" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
-
         <link href="/Featured-Image-Generator/styles.min.css" rel="stylesheet" />
         <!-- Google tag (gtag.js) -->
         <!--[ Site Verification ]-->
@@ -98,11 +96,11 @@
   text-decoration: none;
   font-size: 17px;
   display: flex;
-  align-items: center; /* توسيط الأيقونات عموديًا */
+  align-items: center;
 }
 
 .topnav a span {
-  margin-right: 5px; /* تباعد بين الأيقونة والنص */
+  margin-right: 5px;
 }
 
 .topnav a:hover {
@@ -143,7 +141,7 @@
     </style>
     </head>
     <body class="m-0 p-0">
-        <div class="topnav" id="myTopnav" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        <nav class="topnav" id="myTopnav" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <a href="/" class="active" itemprop="url"><span><i class="fas fa-home"></i></span><span itemprop="name">Home</span></a>
             <a href="https://www.mr-medo.net/search/" itemprop="url"><span><i class="fas fa-search"></i></span><span itemprop="name">Tutorials</span></a>
             <a href="https://tools.mr-medo.net/" itemprop="url"><span><i class="fas fa-tools"></i></span><span itemprop="name">Tools</span></a>
@@ -151,7 +149,7 @@
             <a href="https://www.mr-medo.net/p/compress-image.html" itemprop="url"><span><i class="fas fa-compress"></i></span><span itemprop="name">Compress Image</span></a>
             <a href="https://www.mr-medo.net/p/privacy-and-terms-generator.html" itemprop="url"><span><i class="fas fa-user-secret"></i></span><span itemprop="name">Privacy Generator</span></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
-        </div>        
+        </nav>        
         <script>
             function myFunction() {
               var x = document.getElementById("myTopnav");
@@ -326,7 +324,7 @@ Your active WordPress theme also determines how the featured images will be disp
         // Load html2canvas
         var hc = document.createElement("script");
         hc.type = "text/javascript";
-        hc.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+        hc.src = "//mr-medo-net.github.io/Featured-Image-Generator/scripts.js";
         hc.async = "async"; 
         document.head.appendChild(hc);
     };
@@ -335,7 +333,5 @@ Your active WordPress theme also determines how the featured images will be disp
     if (raf) raf(cb);
     else window.addEventListener("load", cb);
 //]]></script>
-<script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
-<script src="/Featured-Image-Generator/scripts.js"></script>
 <script src="/Featured-Image-Generator/bundle.js"></script>
 </html>
